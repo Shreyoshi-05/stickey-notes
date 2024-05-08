@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(198, 207, 251);
+}
+#notes{
+    width: 90%;
+    height: 90%;
+    margin: 6rem auto;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(238, 185, 234); */
+    margin-left: 70px;
+
+}
+.left, .right{
+    width: 50%;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.right{
+    /* background-color: rgb(241, 155, 182); */
+}
+textarea, button{
+    width: 300px; 
+}
+textarea{
+    margin-bottom: 30px;
+}
+button{
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.right .note{
+    border-radius: 5px;
+    position: relative;
+    padding: 5px;
+    max-width: 200px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+    margin: 10px;
+    min-width: 100px;
+    max-width: 200px;
+
+}
+
+textarea{
+    box-shadow: 2px 1px 3px 4px rgb(0, 0, 0, 0.5);
+}
+
+.right .note .close{
+    position: absolute;
+    top:4px;
+    right: 4px;
+    cursor: pointer;
+    box-shadow: 2px 1px 3px 4px rgb(0, 0, 0, 0.5);
+    
+}
+.right{
+    display: flex;
+    align-items: self-start;
+    flex-wrap: wrap;
+
+}
+
